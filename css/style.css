@@ -1,0 +1,89 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http_equiv="X-UA-compatible" content= "IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera pagina web</title>
+    <link rel="stylesheet" href="css/style.css"
+</head>
+
+
+header{
+    border-radius: 10px;
+    background: #276086;
+    color: #acd6f0;
+    text-align: center;
+}
+
+nav{
+    border-radius: 5px;
+    min-height: 45px;
+    background: #746670;
+    margin-bottom: 10px;
+}
+
+nav ul{
+    padding-top: 10px;
+    list-style: none;
+}
+
+nav ul li{
+    display: inline;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+section{
+    padding: 5px;
+    border-radius: 10px;
+    background: #7a7a7a;
+}
+
+article{
+    background: #a6a6a6;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+}
+
+aside{
+    background: #92a0c4;
+    border-radius: 10px;
+}
+
+footer{
+    background: #276086;
+    color: #acd6f0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.main-content{
+    width: 67%;
+    float: left;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+.rigth-content{
+    float: right;
+    width: 30%;
+    margin-right: 5px;
+}
+
+.rigth-content section{
+    margin: 15px;
+    padding: 5px;
+}
+
+.page-footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    padding-top: 20px;
+}
